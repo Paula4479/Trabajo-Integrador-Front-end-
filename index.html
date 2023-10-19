@@ -46,13 +46,13 @@
     <div id="carouselExample" class="carousel slide card-superpuesta" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/foto 1.jpg" class="d-block w-100" alt="Buenos Aires">
+                <img src="images/foto 1.jpg" class="d-block w-100" alt="foto 1">
             </div>
             <div class="carousel-item">
-                <img src="images/foto 2.jpg" class="d-block w-100" alt="Buenos Aires">
+                <img src="images/hawaii2.jpg" class="d-block w-100" alt="hawaii2">
             </div>
             <div class="carousel-item">
-                <img src="images/foto 8.jpg" class="d-block w-100" alt="Obelisco">
+                <img src="images/hawaii3.jpg" class="d-block w-100" alt="hawaii3">
             </div>
         </div>
         <div class="d-flex">
@@ -163,27 +163,28 @@
         <H4>ORADOR</H4>
         <div class="text-convocatoria">Anotate como orador para dar una <u class="subrayado">charla ignite</u>. Cuéntanos de
             qué quieres hablar!</div>
+</div>
+<form id="formContacto">
+    <div class="row justify-content-md-center" id="formContactoRowNA">
+        <div class="col mb-3">
+            <input type="text" class="form-control" id="form-text-nombre" placeholder="Ingrese su nombre...">
+        </div>
+        <div class="col mb-3">
+            <input type="text" class="form-control" id="form-text-apellido" placeholder="Ingrese su apellido...">
+        </div>
+    <div class="row justify-content-md-center" id="formContactoRowTA">
+        <div class="col">
+            <textarea class="form-control" id="form-textArea" maxlength="450" rows="4" placeholder="¿Sobre qué quieres hablar?"></textarea>
+            <p class="text-secondary" style="font-size: 12px">¡Recuerda incluír un título para tu charla!</p>
+        </div>
     </div>
-    <form action="" class="formulario">
-        <div>    
-            <div class="row">
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" required>
-                </div>
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" required>
-                </div>
-                <div class="mb-4 pt-3" id="textarea">
-                    <textarea class="form-control" id="Textarea1" placeholder="Sobre qué quieres hablar?" rows="3"></textarea>
-                    <label for="textarea" class="texto-area" required>Recuerda incluir un título para tu charla</label>
-                </div>
-                <div>
-                    <button type="submit" class="btn btn-success">Enviar</button>
+    <div class="d-flex justify-content-md-center mb-3">
+        <button id="btnFormEnviar" class="btn btn-success fw-semibold">Enviar</button>
                 </div>         
             </div>
         </div>
     </form>
-    <footer>   
+<footer>
         <div class="footer-lista justify-content-center align-items-center">
             <a class="nav-link footer-link text-center" href="#">Preguntas<br>Frecuentes</a>
             <a class="nav-link footer-link text-center" href="#">Contáctanos</a>
